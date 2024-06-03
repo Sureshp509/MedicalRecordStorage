@@ -28,7 +28,7 @@ const Navbar = () => {
     <div className="Navbar">
       <div className="nav__name">
         <img src={healthReport} alt="" width="40" height="40" />
-        <h2>Subham Medical Record </h2>
+        <h2>Suresh Medical Record </h2>
       </div>
       <div className="nav__networkSelector">
         <select
@@ -42,6 +42,7 @@ const Navbar = () => {
           </option>
           <option value="31337">Localhost</option>
           <option value="0x5">Goerli</option>
+          <option value="0x5">Sepolia</option>
           <option value="0x13881">Mumbai</option>
         </select>
       </div>
